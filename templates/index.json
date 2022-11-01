@@ -8,12 +8,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
             "title": "Discover the new way of playing",
-            "button-1-color": "#FF8F8F",
+            "button-1-color": "#ff8f8f",
             "button-1-link": "#",
-            "button-1-text-color": "#FFFFFF",
-            "button-2-color": "#FFE4BB",
+            "button-1-text-color": "#ffffff",
+            "button-2-color": "#ffe4bb",
             "button-2-link": "#",
-            "button-2-text-color": "#E86E6E"
+            "button-2-text-color": "#e86e6e"
           }
         },
         "3508b357-7120-4a53-94f9-e1d296ea2a1b": {
@@ -21,12 +21,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
             "title": "Discover the new way of playing",
-            "button-1-color": "#FF8F8F",
+            "button-1-color": "#ff8f8f",
             "button-1-link": "#",
-            "button-1-text-color": "#FFFFFF",
-            "button-2-color": "#FFE4BB",
+            "button-1-text-color": "#ffffff",
+            "button-2-color": "#ffe4bb",
             "button-2-link": "#",
-            "button-2-text-color": "#E86E6E"
+            "button-2-text-color": "#e86e6e"
           }
         },
         "24f89247-19cf-4ab9-b32b-5fe65525bce2": {
@@ -34,12 +34,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
             "title": "Discover the new way of playing",
-            "button-1-color": "#FF8F8F",
+            "button-1-color": "#ff8f8f",
             "button-1-link": "#",
-            "button-1-text-color": "#FFFFFF",
-            "button-2-color": "#FFE4BB",
+            "button-1-text-color": "#ffffff",
+            "button-2-color": "#ffe4bb",
             "button-2-link": "#",
-            "button-2-text-color": "#E86E6E"
+            "button-2-text-color": "#e86e6e"
           }
         },
         "37a2f4f5-ff58-4cf3-a9ac-e084de1b7417": {
@@ -47,12 +47,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
             "title": "Discover the new way of playing",
-            "button-1-color": "#FF8F8F",
+            "button-1-color": "#ff8f8f",
             "button-1-link": "#",
-            "button-1-text-color": "#FFFFFF",
-            "button-2-color": "#FFE4BB",
+            "button-1-text-color": "#ffffff",
+            "button-2-color": "#ffe4bb",
             "button-2-link": "#",
-            "button-2-text-color": "#E86E6E"
+            "button-2-text-color": "#e86e6e"
           }
         },
         "d8b8419e-3d0f-4d0e-b2cb-0ceb659146af": {
@@ -60,12 +60,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
             "title": "Discover the new way of playing",
-            "button-1-color": "#FF8F8F",
+            "button-1-color": "#ff8f8f",
             "button-1-link": "#",
-            "button-1-text-color": "#FFFFFF",
-            "button-2-color": "#FFE4BB",
+            "button-1-text-color": "#ffffff",
+            "button-2-color": "#ffe4bb",
             "button-2-link": "#",
-            "button-2-text-color": "#E86E6E"
+            "button-2-text-color": "#e86e6e"
           }
         }
       },
@@ -94,33 +94,37 @@
         "template--15901258907842__b26fff5a-a330-47f7-87ca-46c62af8812f-16673019808fe9fe2d-1": {
           "type": "advantages-item",
           "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
+            "image": "shopify:\/\/shop_images\/icons_1.png",
+            "title": "Easy to carry",
+            "text": "Our light-weight and flexible<br> books will keep your children<br> busy for \t\t\t\t\t\t\t\tyour long journeys or<br> dinners at the restaurant.",
+            "pos": "-5px, 106px"
           }
         },
         "template--15901258907842__b26fff5a-a330-47f7-87ca-46c62af8812f-16673019808fe9fe2d-2": {
           "type": "advantages-item",
           "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
+            "image": "shopify:\/\/shop_images\/icons_2.png",
+            "title": "Sustainability",
+            "text": "All of our products are plastic-<br>free and fairly produced.",
+            "pos": "0, 52px"
           }
         },
         "template--15901258907842__b26fff5a-a330-47f7-87ca-46c62af8812f-16673019808fe9fe2d-3": {
           "type": "advantages-item",
           "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
+            "image": "shopify:\/\/shop_images\/icons_3.png",
+            "title": "Long-lasting products",
+            "text": "Our high-quality products can<br> be passed \t\t\t\t\t\t\t\ton from generation<br> to generation",
+            "pos": "10px, 33px"
           }
         },
         "template--15901258907842__b26fff5a-a330-47f7-87ca-46c62af8812f-16673019808fe9fe2d-4": {
           "type": "advantages-item",
           "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
+            "image": "shopify:\/\/shop_images\/icons_4.png",
+            "title": "Versatile toys",
+            "text": "Our products can be played in<br> countless unimaginable ways.<br> \t\t\t\t\t\t\t\tWe offer your children a world<br> of creativity in each of our<br> books.",
+            "pos": "-17px, 60px"
           }
         }
       },
@@ -132,7 +136,7 @@
         "template--15901258907842__b26fff5a-a330-47f7-87ca-46c62af8812f-16673019808fe9fe2d-4"
       ],
       "settings": {
-        "bgcolor": "#CEE8FF",
+        "bgcolor": "#cee8ff",
         "title": "Our Quiet Books",
         "title-color": "",
         "sub-title": "are developed by child experts to \t\t\t\t\t\timprove your children's fine motor development",
