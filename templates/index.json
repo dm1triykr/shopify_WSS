@@ -166,65 +166,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "5aa0c5f7-f260-45a3-895a-f38b84248425": {
-      "type": "advantages",
-      "blocks": {
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-0": {
-          "type": "advantages-item",
-          "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
-          }
-        },
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-1": {
-          "type": "advantages-item",
-          "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
-          }
-        },
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-2": {
-          "type": "advantages-item",
-          "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
-          }
-        },
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-3": {
-          "type": "advantages-item",
-          "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
-          }
-        },
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-4": {
-          "type": "advantages-item",
-          "settings": {
-            "title": "",
-            "text": "",
-            "pos": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-0",
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-1",
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-2",
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-3",
-        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-4"
-      ],
-      "settings": {
-        "bgcolor": "#CEE8FF",
-        "title": "",
-        "title-color": "",
-        "sub-title": "",
-        "sub-title-color": ""
-      }
     }
   },
   "order": [
@@ -233,7 +174,6 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "5aa0c5f7-f260-45a3-895a-f38b84248425"
+    "multicolumn"
   ]
 }
