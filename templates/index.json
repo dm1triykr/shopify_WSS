@@ -2,50 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "rich_text": {
@@ -209,6 +166,65 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5aa0c5f7-f260-45a3-895a-f38b84248425": {
+      "type": "advantages",
+      "blocks": {
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-0": {
+          "type": "advantages-item",
+          "settings": {
+            "title": "",
+            "text": "",
+            "pos": ""
+          }
+        },
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-1": {
+          "type": "advantages-item",
+          "settings": {
+            "title": "",
+            "text": "",
+            "pos": ""
+          }
+        },
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-2": {
+          "type": "advantages-item",
+          "settings": {
+            "title": "",
+            "text": "",
+            "pos": ""
+          }
+        },
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-3": {
+          "type": "advantages-item",
+          "settings": {
+            "title": "",
+            "text": "",
+            "pos": ""
+          }
+        },
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-4": {
+          "type": "advantages-item",
+          "settings": {
+            "title": "",
+            "text": "",
+            "pos": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-0",
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-1",
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-2",
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-3",
+        "template--15901258907842__5aa0c5f7-f260-45a3-895a-f38b84248425-16673006088f92137f-4"
+      ],
+      "settings": {
+        "bgcolor": "#CEE8FF",
+        "title": "",
+        "title-color": "",
+        "sub-title": "",
+        "sub-title-color": ""
+      }
     }
   },
   "order": [
@@ -217,6 +233,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "5aa0c5f7-f260-45a3-895a-f38b84248425"
   ]
 }
