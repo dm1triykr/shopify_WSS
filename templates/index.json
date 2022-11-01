@@ -249,7 +249,6 @@
     },
     "9ffb65aa-9b05-4e28-ae30-e00825082840": {
       "type": "meet-with-team-slider",
-      "disabled": true,
       "blocks": {
         "template--15901258907842__9ffb65aa-9b05-4e28-ae30-e00825082840-166730273637126dbb-0": {
           "type": "meet-with-team-slide",
