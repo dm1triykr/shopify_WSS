@@ -362,6 +362,94 @@
         "title": "Our Categories",
         "title-color": ""
       }
+    },
+    "7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4": {
+      "type": "follow-us-slider",
+      "blocks": {
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-0": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-1": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-2": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-3": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-4": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-5": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-6": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-7": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-8": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-9": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-10": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        },
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-11": {
+          "type": "follow-us-slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-0",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-1",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-2",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-3",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-4",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-5",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-6",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-7",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-8",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-9",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-10",
+        "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-11"
+      ],
+      "settings": {
+        "bgcolor": "#FFFFFF",
+        "title": "Follow us",
+        "title-color": "",
+        "sub-title": "in our journey in helping children get to their full potential, one<br> book at a time!",
+        "sub-title-color": "",
+        "image": "shopify:\/\/shop_images\/instagram.png",
+        "inst-link": "@jollydesigns"
+      }
     }
   },
   "order": [
@@ -370,6 +458,7 @@
     "b825958c-63c5-4f65-a4d0-e16b844c126d",
     "659316d1-2861-4e82-947b-7bb8e71f341e",
     "9ffb65aa-9b05-4e28-ae30-e00825082840",
-    "4b73647d-204b-41eb-8aba-95416ac97316"
+    "4b73647d-204b-41eb-8aba-95416ac97316",
+    "7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4"
   ]
 }
