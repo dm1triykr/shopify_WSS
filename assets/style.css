@@ -13,3 +13,13 @@
     color: #F2994A;
 }
 
+.advantages__column:after {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    border: 2px dashed #ff8f8f;
+    left: 2.5%;
+    top: 2%;
+}
