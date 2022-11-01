@@ -1,58 +1,104 @@
-<header class="header">
-  <div class="header__announcement-bar">
-    <div class="announcement-bar__container _container">
-      <div class="announcement-bar">
-        <!-- Additional required wrapper -->
-        <div class="announcement-bar__wrapper">
-          {% for block in section.blocks %}
-            <div class="announcement-bar__slide top-feature">
-              <div class="top-feature__image">
-                {{ block.settings.icon | img_url: "32x32" | img_tag }}
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'announcement' -%}
+      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+        {%- if block.settings.text != blank -%}
+          {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
+          {%- endif -%}
+              <div class="page-width">
+                <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
+                  {{ block.settings.text | escape }}
+                  {%- if block.settings.link != blank -%}
+                    {% render 'icon-arrow' %}
+                  {%- endif -%}
+                </p>
               </div>
-              <div class="top-feature__text">
-                {{ block.settings.text }}
-              </div>
-            </div>
-          {% endfor %}
-        </div>
+          {%- if block.settings.link != blank -%}
+            </a>
+          {%- endif -%}
+        {%- endif -%}
       </div>
-    </div>
-  </div>
-</header>
+  {%- endcase -%}
+{%- endfor -%}
 
 {% schema %}
 {
-"name": "Announcement bar",
-"class": "announcement-bar",
-"max_blocks": 6,
-"settings": [
-],
-"blocks": [
-{
-"type": "announcement-bar-slide",
-"name": "Announcement bar slide",
-"settings": [
-{
-"type": "header",
-"content": "Icon settings"
-},
-{
-"type": "image_picker",
-"id": "icon",
-"label": "Icon"
-},
-{
-"type": "header",
-"content": "Text settings"
-},
-{
-"type": "text",
-"id": "text",
-"label": "Text",
-"default": "Free shipping from 60€ (DE)"
-}
-]
-}
-]
+  "name": "t:sections.announcement-bar.name",
+  "max_blocks": 12,
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"
+            },
+            {
+              "value": "center",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"
+            },
+            {
+              "value": "right",
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"
+            }
+          ],
+          "default": "center",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "accent-1",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
 }
 {% endschema %}
