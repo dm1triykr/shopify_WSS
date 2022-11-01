@@ -1,0 +1,212 @@
+<div class="page__advantages advantages" style="background-color: {{ section.settings.bgcolor }}">
+    <div class="advantages__container _container">
+        <div class="advantages__titles">
+            <h2 class="advantages__title" style="color: {{ section.settings.title-color }}">
+                {{ section.settings.title }}<i class="icon-title"></i>
+            </h2>
+            <h3 class="advantages__title advantages__title_sub-title" style="color: {{ section.settings.sub-title-color }}">
+                {{ section.settings.sub-title }}
+            </h3>
+        </div>
+        <div class="advantages__content">
+            {% for block in section.blocks %}
+                <div class="advantages__slide" style="transform: translate({{ block.settings.pos }})">
+                    <div class="advantages__column column-adv">
+                        <div class="column-adv__image">
+                            {{block.settings.image | img_url: "96x96" | img_tag }}
+                        </div>
+                        <div class="column-adv__title">{{ block.settings.title }}</div>
+                        <div class="column-adv__text">
+                            {{ block.settings.text }}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+
+            {% comment %} <div class="advantages__slide">
+                <div class="advantages__column column-adv">
+                    <div class="column-adv__image">
+                        <img src="img/advantages/01.jpg" alt="">
+                    </div>
+                    <div class="column-adv__title">Learning</div>
+                    <div class="column-adv__text">
+                        Our pediatrician-<br>recommended products are a<br> great way for your children to<br> learn,
+                        enhance their fine motor<br> skills and develop their<br> imagination
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__slide" style="transform: translate(-5px, 106px)">
+                <div class="advantages__column column-adv" >
+                    <div class="column-adv__image">
+                        <img src="img/advantages/02.jpg" alt="">
+                    </div>
+                    <div class="column-adv__title">Easy to carry</div>
+                    <div class="column-adv__text">
+                        Our light-weight and flexible<br> books will keep your children<br> busy for
+                        your long journeys or<br> dinners at the restaurant.
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__slide" style="transform: translate(0, 52px)">
+                <div class="advantages__column column-adv" >
+                    <div class="column-adv__image">
+                        <img src="img/advantages/03.jpg" alt="">
+                    </div>
+                    <div class="column-adv__title">Sustainability</div>
+                    <div class="column-adv__text">
+                        All of our products are plastic-<br>free and fairly produced.
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__slide" style="transform: translate(10px, 33px)">
+                <div class="advantages__column column-adv" >
+                    <div class="column-adv__image">
+                        <img src="img/advantages/04.jpg" alt="">
+                    </div>
+                    <div class="column-adv__title">Long-lasting products</div>
+                    <div class="column-adv__text">
+                        Our high-quality products can<br> be passed
+                        on from generation<br> to generation
+                    </div>
+                </div>
+            </div>
+            <div class="advantages__slide" style="transform: translate(-17px, 60px)">
+                <div class="advantages__column column-adv" >
+                    <div class="column-adv__image">
+                        <img src="img/advantages/05.jpg" alt="">
+                    </div>
+                    <div class="column-adv__title">Versatile toys</div>
+                    <div class="column-adv__text">
+                        Our products can be played in<br> countless unimaginable ways.<br>
+                        We offer your children a world<br> of creativity in each of our<br> books.
+                    </div>
+                </div>
+            </div> {% endcomment %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Advantages",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Background color" 
+        },
+        {
+            "type": "color",
+            "id": "bgcolor",
+            "label": "Set background color",
+            "default": "#CEE8FF"
+        },
+        {
+            "type": "header",
+            "content": "Title"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Set title"
+        },
+        {
+            "type": "header",
+            "content": "Title color"
+        },
+        {
+            "type": "color",
+            "id": "title-color",
+            "label": "Set title color"
+        },
+        {
+            "type": "header",
+            "content": "Sub title"
+        },
+        {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Set sub title"
+        },
+        {
+            "type": "header",
+            "content": "Sub title color"
+        },
+        {
+            "type": "color",
+            "id": "sub-title-color",
+            "label": "Set sub title color"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "advantages-item",
+            "name": "Advantages item",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Set item's image"
+                },
+                {
+                    "type": "header",
+                    "content": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Set item's title"
+                },
+                {
+                    "type": "header",
+                    "content": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Set item's text"
+                },
+                {
+                    "type": "header",
+                    "content": "Item's position (x,y)"
+                },
+                {
+                    "type": "text",
+                    "id": "pos",
+                    "label": "Set item's position (x,y)"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Advantages",
+            "blocks": [
+                {
+                    "type": "advantages-item"
+                },
+                {
+                    "type": "advantages-item"
+                },
+                {
+                    "type": "advantages-item"
+                },
+                {
+                    "type": "advantages-item"
+                },
+                {
+                    "type": "advantages-item"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}

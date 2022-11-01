@@ -1,0 +1,158 @@
+<div class="page__favorite-books-slider favorite-books-slider">
+    <div class="favorite-books-slider__wrapper">
+        {% for block in section.blocks %}
+            <div class="favorite-books-slider__item favorite-books-slider__item_pink" style="background-color: {{ block.settings.bgcolor }}">
+                <div class="favorite-books-slider__content content-fb">
+                    <div class="content-fb__image" style="margin-bottom: {{ block.settings.bottom-margin }}">
+                        {{ block.settings.image | img_url: "" | img_tag }}  
+                    </div>
+                    <h5 class="content-fb__subtitle content-fb-white-color" style="color: {{ block.settings.sub-title-color }}">{{block.settings.sub-title}}</h5>
+                    {% if block.settings.rating == true %}
+                        <div class="content-fb__rating">
+                            <i class="icon-fb-star"></i>
+                            <i class="icon-fb-star"></i>
+                            <i class="icon-fb-star"></i>
+                            <i class="icon-fb-star"></i>
+                            <i class="icon-fb-star"></i>
+                        </div>
+                    {% endif %}
+                    <h3 class="content-fb__title content-fb-white-color" style="color: {{ block.settings.title-color }}">{{block.settings.title}}</h3>
+                    <div class="content-fb__text content-fb-white-color" style="color: {{ block.settings.text-color }}">
+                        {{block.settings.text}}
+                    </div>
+                </div>
+            </div>
+        {% endfor %} 
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Favourite books",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+
+    ],
+    "blocks": [
+        {
+            "type": "favourite-book-slide",
+            "name": "Favourite book's slide",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Background color" 
+                },
+                {
+                    "type": "color",
+                    "id": "bgcolor",
+                    "label": "Set background color"
+                },
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Set image"
+                },
+                {
+                    "type": "header",
+                    "content": "Bottom margin for image"
+                },
+                {
+                    "type": "text",
+                    "id": "bottom-margin",
+                    "label": "Set bottom margin for image"
+                },
+                {
+                    "type": "header",
+                    "content": "Sub-title"
+                },
+                {
+                    "type": "text",
+                    "id": "sub-title",
+                    "label": "Set sub-title"
+                },
+                {
+                    "type": "header",
+                    "content": "Sub-title color"
+                },
+                {
+                    "type": "color",
+                    "id": "sub-title-color",
+                    "label": "Set sub-title color"
+                },
+                {
+                    "type": "header",
+                    "content": "Show rating"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "rating",
+                    "label": "If you want to display the rating, turn it on"
+                },
+                {
+                    "type": "header",
+                    "content": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Set title"
+                },
+                {
+                    "type": "header",
+                    "content": "Title color"
+                },
+                {
+                    "type": "color",
+                    "id": "title-color",
+                    "label": "Set title color"
+                },
+                {
+                    "type": "header",
+                    "content": "Text"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text",
+                    "label": "Set text"
+                },
+                {
+                    "type": "header",
+                    "content": "Text color"
+                },
+                {
+                    "type": "color",
+                    "id": "text-color",
+                    "label": "Set text color"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Favourite books",
+            "blocks": [
+                {
+                    "type": "favourite-book-slide"
+                },
+                {
+                    "type": "favourite-book-slide"
+                },
+                {
+                    "type": "favourite-book-slide"
+                },
+                {
+                    "type": "favourite-book-slide"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}

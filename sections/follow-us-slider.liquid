@@ -1,0 +1,158 @@
+<div class="page__follow-us follow-us" style="background-color: {{ section.settings.bgcolor }}">
+    <div class="follow-us__wrapper">
+        <div class="follow-us__content content-follow-us">
+            <h2 class="content-follow-us__title" style="color: {{ section.settings.title-color }}"><i class="icon-title"></i>{{ section.settings.title }}</h2>
+            <h3 class="content-follow-us__subtitle" style="color: {{ section.settings.sub-title-color }}">{{ section.settings.sub-title }}</h3>
+            <div class="content-follow-us__instagram">
+                {{section.settings.image | img_url: "32x32" | img_tag }}
+                <a href="#" class="content-follow-us__inst-profile">{{ section.settings.inst-link }}</a>
+            </div>
+            <div class="content-follow-us__slider">
+                {% for block in section.blocks %}
+                    <div class="content-follow-us__item">
+                        <div class="content-follow-us__image">
+                            {{block.settings.image | img_url: "" | img_tag }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Follow us",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Background color" 
+        },
+        {
+            "type": "color",
+            "id": "bgcolor",
+            "label": "Set background color",
+            "default": "#FFFFFF"
+        },
+        {
+            "type": "header",
+            "content": "Title"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Set title"
+        },
+        {
+            "type": "header",
+            "content": "Title color"
+        },
+        {
+            "type": "color",
+            "id": "title-color",
+            "label": "Set title color"
+        },
+        {
+            "type": "header",
+            "content": "Sub title"
+        },
+        {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Set sub title"
+        },
+        {
+            "type": "header",
+            "content": "Sub title color"
+        },
+        {
+            "type": "color",
+            "id": "sub-title-color",
+            "label": "Set sub title color"
+        },
+        {
+            "type": "header",
+            "content": "Social media icon"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Set social media icon"
+        },
+        {
+            "type": "header",
+            "content": "Instagram profile link"
+        },
+        {
+            "type": "text",
+            "id": "inst-link",
+            "label": "Set Instagram profile link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "follow-us-slide",
+            "name": "Follow us slide",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Set block's image"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Follow us",
+            "blocks": [
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                },
+                {
+                    "type": "follow-us-slide"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}

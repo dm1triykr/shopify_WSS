@@ -1,0 +1,134 @@
+<div class="page__meet-with-team-slider meet-with-team-slider">
+    <div class="meet-with-team-slider__wrapper">
+         {% for block in section.blocks %}
+            <div class="meet-with-team-slider__item" data-slidernav="Meet the Jolly Family" style="background-color: {{ block.settings.bgcolor }}">
+                <div class="meet-with-team-slider__content content-mwt">
+                    <h2 class="content-mwt__title" style="color: {{ block.settings.title-color }}"><i class="icon-title"></i>{{ block.settings.title }}</h2>
+                    <h5 class="content-mwt__subtitle" style="color: {{ block.settings.sub-title-color }}">{{ block.settings.sub-title }}</h5>
+                    <div class="content-mwt__image">
+                        {{ block.settings.image | img_url: "" | img_tag }}
+                    </div>
+                    <div class="content-mwt__button" style="color: {{ block.settings.button-color }}">
+                        <a href="{{ block.settings.button-link }}" class="content-mwt__link" style="color: {{ block.settings.button-text-color }}">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Meet with team",
+    "tag": "section",
+    "class": "section",
+    "settings":[
+
+    ],
+    "blocks": [
+        {
+            "type": "meet-with-team-slide",
+            "name": "Meet with team slide",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "Background color" 
+                },
+                {
+                    "type": "color",
+                    "id": "bgcolor",
+                    "label": "Set background color"
+                },
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Set image"
+                },
+                {
+                    "type": "header",
+                    "content": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Set title"
+                },
+                {
+                    "type": "header",
+                    "content": "Title color"
+                },
+                {
+                    "type": "color",
+                    "id": "title-color",
+                    "label": "Set title color"
+                },
+                {
+                    "type": "header",
+                    "content": "Sub-title"
+                },
+                {
+                    "type": "text",
+                    "id": "sub-title",
+                    "label": "Set sub-title"
+                },
+                {
+                    "type": "header",
+                    "content": "Sub-title color"
+                },
+                {
+                    "type": "color",
+                    "id": "sub-title-color",
+                    "label": "Set sub-title color"
+                },
+                {
+                    "type": "header",
+                    "content": "Button color"
+                },
+                {
+                    "type": "color",
+                    "id": "button-color",
+                    "label": "Set button color",
+                    "default": "#FF8F8F"
+                },
+                {
+                    "type": "header",
+                    "content": "Button link"
+                },
+                {
+                    "type": "text",
+                    "id": "button-link",
+                    "label": "Set button link",
+                    "default": "#"
+                },
+                {
+                    "type": "header",
+                    "content": "Button text color"
+                },
+                {
+                    "type": "color",
+                    "id": "button-text-color",
+                    "label": "Set button text color",
+                    "default": "#FFFFFF"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Meet with team",
+            "blocks": [
+                {
+                    "type": "meet-with-team-slide"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}

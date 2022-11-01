@@ -1,0 +1,114 @@
+<div class="page__making-process making-process">
+    <div class="making-process__container _container">
+        <h2 class="making-process__title">{{section.settings.title}}</h2>
+        <div class="making-process__content">
+            {% for block in section.blocks %}
+                <div class="making-process__row row-mp">
+                    <div class="making-process__column column-mp">
+                        <h4 class="column-mp__title">{{block.settings.title-1}}</h4>
+                        <div class="column-mp__text">
+                            {{block.settings.text-1}}
+                        </div>
+                    </div>
+                    <div class="making-process__column column-mp">
+                        <h4 class="column-mp__title">{{block.settings.title-2}}</h4>
+                        <div class="column-mp__text">
+                            {{block.settings.text-2}}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %} 
+            <div class="making-process__image">
+                {{ section.settings.image | img_url: "" | img_tag }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Making process",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "header",
+            "content": "Background image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Set background image"
+        },
+        {
+            "type": "header",
+            "content": "Title"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Set title"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "row-block-with-text",
+            "name": "Block with text",
+            "settings": [
+                {
+                    "type": "header",
+                    "content": "First title"
+                },
+                {
+                    "type": "text",
+                    "id": "title-1",
+                    "label": "Set fisrt title"
+                },
+                {
+                    "type": "header",
+                    "content": "First block's text"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text-1",
+                    "label": "Set first block's text"
+                },
+                {
+                    "type": "header",
+                    "content": "Second title"
+                },
+                {
+                    "type": "text",
+                    "id": "title-2",
+                    "label": "Set Second title"
+                },
+                {
+                    "type": "header",
+                    "content": "Second block's text"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text-2",
+                    "label": "Set second block's text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Making process",
+            "blocks": [
+                {
+                    "type": "row-block-with-text"
+                },
+                {
+                    "type": "row-block-with-text"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}

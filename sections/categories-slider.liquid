@@ -1,0 +1,127 @@
+<div class="page__categories-slider categories-slider" style="background-color: {{ section.settings.bgcolor }}">
+    <div class="categories-slider__wrapper">
+        <h2 class="categories-slider__title" style="color: {{ section.settings.title-color }}">{{section.settings.title}}<i class="icon-title"></i></h2>
+        <div class="categories-slider__slides">
+            {% for block in section.blocks %}
+                <div class="categories-slider__item">
+                    <div class="categories-slider__content content-ctgrs">
+                        <a href="{{ block.settings.link }}" alt="" class="content-ctgrs__link">
+                            <div class="content-ctgrs__image"> 
+                            {{block.settings.image | img_url: "" | img_tag }}
+                        </div>
+                        <h3 class="content-ctgrs__title" style="color: {{ block.settings.title-color }}">{{block.settings.title}}</h3>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Categories",
+    "tag": "section",
+    "class": "section",
+    "settings":[
+        {
+            "type": "header",
+            "content": "Background color" 
+        },
+        {
+            "type": "color",
+            "id": "bgcolor",
+            "label": "Set background color",
+            "default": "#CEE8FF"
+        },
+        {
+            "type": "header",
+            "content": "Title"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Set title"
+        },
+        {
+            "type": "header",
+            "content": "Title color"
+        },
+        {
+            "type": "color",
+            "id": "title-color",
+            "label": "Set title color"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "categories-slide",
+            "name": "Categories slide",
+            "settings": [
+                
+                {
+                    "type": "header",
+                    "content": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Set image"
+                },
+                {
+                    "type": "header",
+                    "content": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Set title"
+                },
+                {
+                    "type": "header",
+                    "content": "Title color"
+                },
+                {
+                    "type": "color",
+                    "id": "title-color",
+                    "label": "Set title color"
+                },
+                {
+                    "type": "header",
+                    "content": "Categories's link"
+                },
+                {
+                    "type": "text",
+                    "id": "link",
+                    "label": "Set block's link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Categories",
+            "blocks": [
+                {
+                    "type": "categories-slide"
+                },
+                {
+                    "type": "categories-slide"
+                },
+                {
+                    "type": "categories-slide"
+                },
+                {
+                    "type": "categories-slide"
+                },
+                {
+                    "type": "categories-slide"
+                }
+            ]
+        }
+    ],
+    "templates": [
+        "index"
+    ]
+}
+{% endschema %}
