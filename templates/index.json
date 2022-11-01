@@ -142,10 +142,42 @@
         "sub-title": "are developed by child experts to \t\t\t\t\t\timprove your children's fine motor development",
         "sub-title-color": ""
       }
+    },
+    "b825958c-63c5-4f65-a4d0-e16b844c126d": {
+      "type": "making-process",
+      "blocks": {
+        "template--15901258907842__b825958c-63c5-4f65-a4d0-e16b844c126d-166730273613fc6568-0": {
+          "type": "row-block-with-text",
+          "settings": {
+            "title-1": "Step 1",
+            "text-1": "Lorem Ipsum is simply<br> dummy text of\n\t\t\t\t\t\t\t\tthe printing<br> and typesetting industry",
+            "title-2": "Step 2",
+            "text-2": "Lorem Ipsum is simply<br> dummy text of\n\t\t\t\t\t\t\t\tthe printing<br> and typesetting industry"
+          }
+        },
+        "template--15901258907842__b825958c-63c5-4f65-a4d0-e16b844c126d-166730273613fc6568-1": {
+          "type": "row-block-with-text",
+          "settings": {
+            "title-1": "Step 3",
+            "text-1": "Lorem Ipsum is simply<br> dummy text of\n\t\t\t\t\t\t\t\tthe printing<br> and typesetting industry",
+            "title-2": "Step 4",
+            "text-2": "Lorem Ipsum is simply<br> dummy text of\n\t\t\t\t\t\t\t\tthe printing<br> and typesetting industry"
+          }
+        }
+      },
+      "block_order": [
+        "template--15901258907842__b825958c-63c5-4f65-a4d0-e16b844c126d-166730273613fc6568-0",
+        "template--15901258907842__b825958c-63c5-4f65-a4d0-e16b844c126d-166730273613fc6568-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_2.png",
+        "title": "How our Quiet Books are made"
+      }
     }
   },
   "order": [
     "image_banner",
-    "b26fff5a-a330-47f7-87ca-46c62af8812f"
+    "b26fff5a-a330-47f7-87ca-46c62af8812f",
+    "b825958c-63c5-4f65-a4d0-e16b844c126d"
   ]
 }
