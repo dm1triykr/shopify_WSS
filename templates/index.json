@@ -2,6 +2,80 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "blocks": {
+        "851031d7-d485-4617-91e6-7b66066d7760": {
+          "type": "main-slider-slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
+            "title": "Discover the new way of playing",
+            "button-1-color": "#FF8F8F",
+            "button-1-link": "#",
+            "button-1-text-color": "#FFFFFF",
+            "button-2-color": "#FFE4BB",
+            "button-2-link": "#",
+            "button-2-text-color": "#E86E6E"
+          }
+        },
+        "3508b357-7120-4a53-94f9-e1d296ea2a1b": {
+          "type": "main-slider-slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
+            "title": "Discover the new way of playing",
+            "button-1-color": "#FF8F8F",
+            "button-1-link": "#",
+            "button-1-text-color": "#FFFFFF",
+            "button-2-color": "#FFE4BB",
+            "button-2-link": "#",
+            "button-2-text-color": "#E86E6E"
+          }
+        },
+        "24f89247-19cf-4ab9-b32b-5fe65525bce2": {
+          "type": "main-slider-slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
+            "title": "Discover the new way of playing",
+            "button-1-color": "#FF8F8F",
+            "button-1-link": "#",
+            "button-1-text-color": "#FFFFFF",
+            "button-2-color": "#FFE4BB",
+            "button-2-link": "#",
+            "button-2-text-color": "#E86E6E"
+          }
+        },
+        "37a2f4f5-ff58-4cf3-a9ac-e084de1b7417": {
+          "type": "main-slider-slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
+            "title": "Discover the new way of playing",
+            "button-1-color": "#FF8F8F",
+            "button-1-link": "#",
+            "button-1-text-color": "#FFFFFF",
+            "button-2-color": "#FFE4BB",
+            "button-2-link": "#",
+            "button-2-text-color": "#E86E6E"
+          }
+        },
+        "d8b8419e-3d0f-4d0e-b2cb-0ceb659146af": {
+          "type": "main-slider-slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21-08-12-12-04-08-web_1.png",
+            "title": "Discover the new way of playing",
+            "button-1-color": "#FF8F8F",
+            "button-1-link": "#",
+            "button-1-text-color": "#FFFFFF",
+            "button-2-color": "#FFE4BB",
+            "button-2-link": "#",
+            "button-2-text-color": "#E86E6E"
+          }
+        }
+      },
+      "block_order": [
+        "851031d7-d485-4617-91e6-7b66066d7760",
+        "3508b357-7120-4a53-94f9-e1d296ea2a1b",
+        "24f89247-19cf-4ab9-b32b-5fe65525bce2",
+        "37a2f4f5-ff58-4cf3-a9ac-e084de1b7417",
+        "d8b8419e-3d0f-4d0e-b2cb-0ceb659146af"
+      ],
       "settings": {
       }
     },
