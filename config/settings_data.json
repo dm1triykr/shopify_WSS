@@ -124,6 +124,58 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "f42dbeb9-0ce4-4975-9135-d153ac2de2b9": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-car.png",
+              "text": "Free shipping from 60€ (DE)"
+            }
+          },
+          "51abb4ca-9919-484f-8f1e-f396cdf42a79": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-hand-made.png",
+              "text": "High quality hand-mand & ethical products"
+            }
+          },
+          "f8247ac5-090a-410e-9b94-5112d35c6e4d": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-guarantee.png",
+              "text": "6 Months guarantee"
+            }
+          },
+          "c2a9e990-d84c-4ff8-92ba-c634687345b6": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-heart.png",
+              "text": "The favourite of XXXX partners"
+            }
+          },
+          "dc5b1928-bf44-40a5-9e2e-2c5221d41941": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-germany.png",
+              "text": "Made in Germany"
+            }
+          },
+          "019c6b93-a1f7-40c5-99d9-f303ddfbcf89": {
+            "type": "announcement-bar-slide",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/icon-replacement.png",
+              "text": "Free parts replacement service"
+            }
+          }
+        },
+        "block_order": [
+          "f42dbeb9-0ce4-4975-9135-d153ac2de2b9",
+          "51abb4ca-9919-484f-8f1e-f396cdf42a79",
+          "f8247ac5-090a-410e-9b94-5112d35c6e4d",
+          "c2a9e990-d84c-4ff8-92ba-c634687345b6",
+          "dc5b1928-bf44-40a5-9e2e-2c5221d41941",
+          "019c6b93-a1f7-40c5-99d9-f303ddfbcf89"
+        ],
         "settings": {
         }
       },
