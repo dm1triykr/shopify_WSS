@@ -211,13 +211,14 @@
           "type": "favourite-book-slide",
           "settings": {
             "bgcolor": "",
-            "bottom-margin": "",
-            "sub-title": "",
+            "image": "shopify:\/\/shop_images\/image_22.png",
+            "bottom-margin": "54.15px",
+            "sub-title": "The Favorite Over Partners",
             "sub-title-color": "",
-            "rating": false,
-            "title": "",
+            "rating": true,
+            "title": "Angelina Bork",
             "title-color": "",
-            "text": "",
+            "text": "Brings' color in the children's room but also ideally suited\n\t\t\t\t\t\t\tfor the living<br> room or bedroom. With our hand-woven wall rug, the home becomes<br>\n\t\t\t\t\t\t\teven more of a feel-good oasis.",
             "text-color": ""
           }
         },
@@ -225,14 +226,15 @@
           "type": "favourite-book-slide",
           "settings": {
             "bgcolor": "#cee8ff",
-            "bottom-margin": "",
-            "sub-title": "",
-            "sub-title-color": "",
-            "rating": false,
-            "title": "",
-            "title-color": "",
-            "text": "",
-            "text-color": ""
+            "image": "shopify:\/\/shop_images\/image_21.png",
+            "bottom-margin": "39.78px",
+            "sub-title": "The Favorite Over Partners",
+            "sub-title-color": "#105393",
+            "rating": true,
+            "title": "The Favorite Over Partners",
+            "title-color": "#105393",
+            "text": "Brings' color in the children's room but also ideally suited\n\t\t\t\t\t\t\tfor the living<br> room or bedroom. With our hand-woven wall rug, the home becomes<br>\n\t\t\t\t\t\t\teven more of a feel-good oasis.",
+            "text-color": "#105393"
           }
         }
       },
