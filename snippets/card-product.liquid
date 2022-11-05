@@ -45,18 +45,7 @@
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >
 
-    <div class="bestsellers-slider__content content-bs">
-						<div class="content-bs__block-image">
-							<img src="img/bestsellers/globetrotter.jpg" alt="" class="content-bs__image">
-							<a href="#" class="add-to-wish-button add-to-wish-button_checked"></a>
-						</div>
-						<h5 class="content-bs__title">Globetrotter - Quiet Book</h5>
-						<div class="content-bs__price">€79,99</div>
-						<div class="content-bs__button">
-							<a href="" class="content-bs__link">Add to cart</a>
-						</div>
-					</div>
-      <div
+    
   
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
