@@ -46,3 +46,8 @@
 .content-bs__button {
   background-color: #ffffff !important;
 }
+
+.content-bs__button:hover {
+    transition: .5s !important;
+    background: #ff8f8f !important;
+}
