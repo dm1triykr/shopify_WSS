@@ -96,7 +96,14 @@
             </a>
           </div>
         {%- endif -%}
-        
+        <a
+                href="{{ card_product.url }}"
+                id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+              >
+                {{ card_product.title | escape }}
+              
             <h5
               class="content-bs__title"
               {% if card_product.featured_media == nil and settings.card_style == 'standard' %}
@@ -105,6 +112,7 @@
             >
               {{ card_product.title | escape }}
             </h5>
+  </a>
       </div>
         {% render 'price', product: card_product, price_class: '' %}
         
