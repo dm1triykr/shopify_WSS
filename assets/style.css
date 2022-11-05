@@ -38,3 +38,7 @@
 .bestsellers-slider__wrapper {
   display: block !important;
 }
+.hidden,
+.visually-hidden{
+  display: none;
+}
