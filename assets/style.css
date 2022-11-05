@@ -51,3 +51,6 @@
     transition: .5s !important;
     background: #ff8f8f !important;
 }
+.meet-with-team-slider__wrapper {
+  overflow: hidden;
+}
