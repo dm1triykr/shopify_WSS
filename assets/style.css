@@ -35,3 +35,6 @@
     left: 64%;
     transform: translate3d(-55%,0,0);
 }
+.bestsellers-slider__wrapper {
+  display: block !important;
+}
