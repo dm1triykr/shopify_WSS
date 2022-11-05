@@ -259,9 +259,9 @@
             "title-color": "",
             "sub-title": "About our story, values & mission",
             "sub-title-color": "",
-            "button-color": "#FF8F8F",
+            "button-color": "#ff8f8f",
             "button-link": "#",
-            "button-text-color": "#FFFFFF"
+            "button-text-color": "#ffffff"
           }
         },
         "a0eb8176-cd25-429d-bf72-1461c3f70bec": {
@@ -273,9 +273,9 @@
             "title-color": "",
             "sub-title": "About our story, values & mission",
             "sub-title-color": "",
-            "button-color": "#FF8F8F",
+            "button-color": "#ff8f8f",
             "button-link": "#",
-            "button-text-color": "#FFFFFF"
+            "button-text-color": "#ffffff"
           }
         },
         "30d3aeb7-0955-4104-bbab-fa6b2fa97bc3": {
@@ -287,9 +287,9 @@
             "title-color": "",
             "sub-title": "About our story, values & mission",
             "sub-title-color": "",
-            "button-color": "#FF8F8F",
+            "button-color": "#ff8f8f",
             "button-link": "#",
-            "button-text-color": "#FFFFFF"
+            "button-text-color": "#ffffff"
           }
         }
       },
@@ -358,7 +358,7 @@
         "template--15901258907842__4b73647d-204b-41eb-8aba-95416ac97316-16673025454fd27a20-4"
       ],
       "settings": {
-        "bgcolor": "#CEE8FF",
+        "bgcolor": "#cee8ff",
         "title": "Our Categories",
         "title-color": ""
       }
@@ -454,13 +454,40 @@
         "template--15901258907842__7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4-16673027367215dd31-11"
       ],
       "settings": {
-        "bgcolor": "#FFFFFF",
+        "bgcolor": "#ffffff",
         "title": "Follow us",
         "title-color": "",
         "sub-title": "in our journey in helping children get to their full potential, one<br> book at a time!",
         "sub-title-color": "",
         "image": "shopify:\/\/shop_images\/instagram.png",
         "inst-link": "@jollydesigns"
+      }
+    },
+    "a2677192-15b7-4c6a-9ed1-ab5148d49c6f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -471,6 +498,7 @@
     "659316d1-2861-4e82-947b-7bb8e71f341e",
     "9ffb65aa-9b05-4e28-ae30-e00825082840",
     "4b73647d-204b-41eb-8aba-95416ac97316",
-    "7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4"
+    "7cb2b8c9-a2e5-4a3f-89b8-256f6105d3c4",
+    "a2677192-15b7-4c6a-9ed1-ab5148d49c6f"
   ]
 }
