@@ -42,7 +42,14 @@
       >
         {%- if card_product.featured_media -%}
           <div class="content-bs__block-image">
-            
+            <a
+                href="{{ card_product.url }}"
+                id="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}"
+                class="full-unstyled-link"
+                aria-labelledby="StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+              >
+                
+              
               {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
               <img
                 srcset="
@@ -86,7 +93,7 @@
                   height="{{ card_product.media[1].height }}"
                 >
               {%- endif -%}
-            
+            </a>
           </div>
         {%- endif -%}
         
