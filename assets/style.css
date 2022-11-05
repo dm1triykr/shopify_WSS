@@ -42,3 +42,7 @@
 .visually-hidden{
   display: none !important;
 }
+
+.content-bs__button {
+  background-color: #ffffff;
+}
