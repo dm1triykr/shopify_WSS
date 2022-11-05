@@ -45,6 +45,44 @@
   endif
 -%}
 
+<div class="page__bestsellers-slider bestsellers-slider">
+			<h2 class="bestsellers-slider__title">{{ section.settings.title }}</h2>
+			<div class="bestsellers-slider__wrapper">
+              {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+                  <div id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %} bestsellers-slider__item">
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+                    %}
+                  </div>
+                {%- else -%}
+                  {%- for i in (1..4) -%}
+                    <li class="grid__item">
+                      {% render 'card-product', show_vendor: section.settings.show_vendor %}
+                    </li>
+                  {%- endfor -%}
+              {%- endfor -%}
+				<div class="bestsellers-slider__item">
+					<div class="bestsellers-slider__content content-bs">
+						<div class="content-bs__block-image">
+							<img src="img/bestsellers/jollybaby.jpg" alt="" class="content-bs__image">
+							<a href="#" class="add-to-wish-button"></a>
+						</div>
+						<h5 class="content-bs__title">Jolly Baby - 6 pages Mini Quiet Book</h5>
+						<div class="content-bs__price">€39,99</div>
+						<div class="content-bs__button">
+							<a href="" class="content-bs__link">Add to cart</a>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</div>
+
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
       <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
