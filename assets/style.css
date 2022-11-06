@@ -134,4 +134,5 @@
 
 .header__menu-item:hover .header__active-menu-item {
   text-decoration-thickness: 0 !important;
+  text-decoration: none !important;
 }
