@@ -155,7 +155,7 @@ $(document).ready(function () {
         centerPadding: '15px'
       });
     } else {
-      // $('.advantages__content').slick('unslick');
+      $('.advantages__content.slick-initialized').slick('unslick');
     }
   });
 });
