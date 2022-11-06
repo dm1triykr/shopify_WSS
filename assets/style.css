@@ -153,6 +153,7 @@ details[open]>.header__submenu {
 
 .js details>.header__submenu {
   transition: .5s;
+  padding: 16px;
 }
 
 .header__submenu {
@@ -164,6 +165,10 @@ details[open]>.header__submenu {
     line-height: 128.5714285714%;
     color: #414249;
     text-transform: capitalize;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
 }
 
 .header__submenu .header__menu-item {
