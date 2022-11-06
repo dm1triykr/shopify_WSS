@@ -131,13 +131,6 @@
 
       <a href="{{ routes.cart_url }}" class="menu-top__link menu-top__numeric menu-top__numeric-2" id="cart-icon-bubble">
         
-        {%- liquid
-          if cart == empty
-            render 'icon-cart-empty'
-          else
-            render 'icon-cart'
-          endif
-        -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
