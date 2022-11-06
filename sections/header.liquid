@@ -142,10 +142,10 @@
     </div>
   </div>
 
-  <nav class="header__inline-menu">
-          <ul class="list-menu list-menu--inline" role="list">
+  <nav class="header__inline-menu header__bottom-menu menu-bottom">
+          <ul class="list-menu list-menu--inline menu-bottom__list" role="list">
             {%- for link in section.settings.menu.links -%}
-              <li>
+              <li menu-bottom__item>
                 {%- if link.links != blank -%}
                   <header-menu>
                     <details id="Details-HeaderMenu-{{ forloop.index }}">
