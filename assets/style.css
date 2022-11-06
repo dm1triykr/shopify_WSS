@@ -91,9 +91,9 @@
     height: 233px;
 }
 
-.categories-slider__item:first-child {
+/* .categories-slider__item:first-child {
     margin-left: 16px !important;
-}
+} */
 /* .categories-slider__item:not(:last-child) {
     margin-right: 32px !important;
 } */
