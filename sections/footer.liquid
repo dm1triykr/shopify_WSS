@@ -85,7 +85,7 @@
 			<div class="bottom-footer__column payment-column">
 				<div class="bottom-footer__image">
 					<a href="#" class="bottom-footer__link">
-<!-- 						<img src="img/footer/01.png" alt=""> -->
+                        {{ section.settings.pm_icon1 | img_url: "38x24" | img_tag }}
 					</a>
 				</div>
 				<div class="bottom-footer__image">
@@ -378,6 +378,55 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+        "type": "header",
+        "content": "Payment methods icons"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon1",
+        "label": "Payment methods icon 1"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon2",
+        "label": "Payment methods icon 2"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon3",
+        "label": "Payment methods icon 3"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon4",
+        "label": "Payment methods icon 4"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon5",
+        "label": "Payment methods icon 5"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon6",
+        "label": "Payment methods icon 6"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon7",
+        "label": "Payment methods icon 7"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon8",
+        "label": "Payment methods icon 8"
+    },
+    {
+        "type": "image_picker",
+        "id": "pm_icon9",
+        "label": "Payment methods icon 9"
     }
   ],
   "default": {
