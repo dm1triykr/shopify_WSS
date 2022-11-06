@@ -280,6 +280,10 @@
     {{ 'app.js' | asset_url | script_tag }}
     {{ 'libs.js' | asset_url | script_tag }}
     {{ 'slick.min.js' | asset_url | script_tag }}
+
+    {%- if settings.predictive_search_enabled -%}
+      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
     
   </body>
 </html>
