@@ -142,4 +142,5 @@
 
 details[open]>.header__menu-item {
     text-decoration: none !important;
+    position: relative;
 }
