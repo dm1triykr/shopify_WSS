@@ -156,7 +156,7 @@
                       </summary>
                       <ul id="HeaderMenu-MenuList-{{ forloop.index }}" class="header__submenu list-menu list-menu--disclosure gradient caption-large motion-reduce global-settings-popup" role="list" tabindex="-1">
                         {%- for childlink in link.links -%}
-                          <li menu-bottom__item>
+                          <li class="menu-bottom__item">
                             {%- if childlink.links == blank -%}
                               <a href="{{ childlink.url }}" class="menu-bottom__link header__menu-item list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
