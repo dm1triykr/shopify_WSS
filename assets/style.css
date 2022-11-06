@@ -117,8 +117,13 @@
   padding-top: 30px;
 }
 
+.header__menu-item {
+  padding: 0;
+}
 
-
-
+.link {
+  text-decoration: none;
+  text-underline-offset: 0;
+}
 
 
