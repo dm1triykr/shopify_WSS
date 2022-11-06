@@ -216,6 +216,16 @@
       }
     {% endstyle %}
 
+    {%- if settings.predictive_search_enabled -%}
+      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
+    {%- endif -%}
+
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    if (Shopify.designMode) {
+      document.documentElement.classList.add('shopify-design-mode');
+    }
+    </script>
+
     {{ 'base.css' | asset_url | stylesheet_tag }} 
     {{ 'style.css' | asset_url | stylesheet_tag }}
     {{ 'libs.css' | asset_url | stylesheet_tag }}
