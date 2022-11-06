@@ -186,3 +186,11 @@ details[open]>.header__submenu {
 .header__submenu.list-menu {
   padding: 0;
 }
+
+.cart-count-bubble {
+  width: 24px !important;
+  height: 24px !important;
+  bottom: 0.2rem !important;
+  left: 2.8rem !important;
+  background-color: #FF8F8F;
+}
