@@ -73,10 +73,10 @@ $(document).ready(function () {
     arrows: false,
     dots: false,
     slidesToShow: 3,
-    //infinite: false,
+    infinite: false,
     // variableWidth: true,
     centerMode: true,
-    centerPadding: '16px'
+    centerPadding: '16px',
     responsive: [{
       breakpoint: 1441,
       settings: {
