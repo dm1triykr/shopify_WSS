@@ -168,9 +168,7 @@ details[open]>.header__submenu {
 }
 
 .menu-bottom__item {
-  &:not(:last-child) {
     margin-bottom: 16px;
-  }
 }
 
 .header__submenu .header__menu-item {
