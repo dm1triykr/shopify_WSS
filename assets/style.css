@@ -142,5 +142,9 @@
 
 details[open]>.header__menu-item {
     text-decoration: none !important;
-    position: relative;
+    
+}
+
+details[open]>.header__submenu {
+  position: absolute;
 }
