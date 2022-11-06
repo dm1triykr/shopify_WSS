@@ -95,5 +95,5 @@
     margin-left: 0 !important;
 }
 .categories-slider__item:not(:last-child) {
-    margin-right: 0 !important;
+    margin-right: 32px !important;
 }
