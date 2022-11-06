@@ -150,3 +150,7 @@ details[open]>.header__submenu {
   visibility: hidden; */
   position: absolute;
 }
+
+.js details>.header__submenu {
+  transition: .5s;
+}
