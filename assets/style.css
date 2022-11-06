@@ -98,7 +98,7 @@
     margin-right: 32px !important;
 } */
 
-.categories-slider__item:not(:last-child) {
+.categories-slider__item {
     padding-right: 32px !important;
 }
 
