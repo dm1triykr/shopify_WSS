@@ -154,3 +154,7 @@ details[open]>.header__submenu {
 .js details>.header__submenu {
   transition: .5s;
 }
+
+.header__submenu {
+  min-width: 150px !important;
+}
