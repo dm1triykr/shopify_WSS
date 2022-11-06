@@ -146,5 +146,7 @@ details[open]>.header__menu-item {
 }
 
 details[open]>.header__submenu {
+/*   opacity: 0;
+  visibility: hidden; */
   position: absolute;
 }
