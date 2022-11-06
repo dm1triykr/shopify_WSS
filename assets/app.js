@@ -75,8 +75,6 @@ $(document).ready(function () {
     slidesToShow: 5,
     infinite: false,
     // variableWidth: true,
-    centerMode: true,
-    centerPadding: '16px',
     responsive: [{
       breakpoint: 1441,
       settings: {
