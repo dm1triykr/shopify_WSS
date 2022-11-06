@@ -74,8 +74,8 @@ $(document).ready(function () {
     dots: false,
     slidesToShow: 5,
     infinite: false,
-    variableWidth: true,
-    centerMode: true,
+    // variableWidth: true,
+    // centerMode: true,
     responsive: [{
       breakpoint: 1441,
       settings: {
