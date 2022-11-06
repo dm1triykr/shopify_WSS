@@ -129,5 +129,5 @@
   text-decoration: none;
 }
 .header__menu-item:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
