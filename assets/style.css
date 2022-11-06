@@ -91,12 +91,12 @@
     height: 233px;
 }
 
-/* .categories-slider__item:first-child {
-    margin-left: 16px !important;
-} */
-/* .categories-slider__item:not(:last-child) {
-    margin-right: 32px !important;
-} */
+.categories-slider__item:first-child {
+    margin-left: 0 !important;
+} 
+.categories-slider__item:not(:last-child) {
+    margin-right: 0 !important;
+}
 
 .categories-slider__item {
     padding-right: 32px !important;
