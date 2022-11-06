@@ -128,3 +128,6 @@
 .header__active-menu-item {
   text-decoration: none;
 }
+.header__menu-item:hover {
+  text-decoration: none;
+}
