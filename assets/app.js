@@ -74,17 +74,18 @@ $(document).ready(function () {
     dots: false,
     slidesToShow: 5,
     infinite: false,
+    variableWidth: true,
     responsive: [{
       breakpoint: 1441,
       settings: {
         slidesToShow: 4.22,
-        // variableWidth: true
+        variableWidth: true
       }
     }, {
       breakpoint: 751,
       settings: {
         slidesToShow: 3.5,
-        // variableWidth: true
+        variableWidth: true
       }
     }]
   });
