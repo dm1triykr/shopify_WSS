@@ -125,4 +125,6 @@
   margin-left: 0;
 }
 
-
+.header__active-menu-item {
+  text-decoration: none;
+}
