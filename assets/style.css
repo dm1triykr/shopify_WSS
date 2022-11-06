@@ -165,7 +165,9 @@ details[open]>.header__submenu {
     line-height: 128.5714285714%;
     color: #414249;
     text-transform: capitalize;
+}
 
+.menu-bottom__item {
   &:not(:last-child) {
     margin-bottom: 16px;
   }
