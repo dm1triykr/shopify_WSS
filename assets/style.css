@@ -139,3 +139,7 @@
   transition: .5s;
   color: #ff8f8f;
 }
+
+.details[open]>.header__menu-item {
+  text-decoration: none !important;
+}
