@@ -86,9 +86,9 @@
 
 
 .content-follow-us__image > img {
-    border-radius: 8px;
-    width: 232px;
-    height: 233px;
+    border-radius: 8px !important;
+    width: 232px !important;
+    height: 233px !important;
 }
 
 .categories-slider__item:first-child {
