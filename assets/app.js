@@ -73,7 +73,7 @@ $(document).ready(function () {
     arrows: false,
     dots: false,
     slidesToShow: 3,
-    infinite: false,
+    //infinite: false,
     // variableWidth: true,
     centerMode: true,
     centerPadding: '16px'
