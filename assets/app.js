@@ -72,7 +72,7 @@ $(document).ready(function () {
   $('.categories-slider__slides').slick({
     arrows: false,
     dots: false,
-    slidesToShow: 5,
+    slidesToShow: 4,
     infinite: false,
     // variableWidth: true,
     responsive: [{
