@@ -153,7 +153,7 @@ details[open]>.header__submenu {
 
 .js details>.header__submenu {
   transition: .5s;
-/*   padding: 16px; */
+  padding: 16px;
 }
 
 .header__submenu {
