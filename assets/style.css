@@ -87,7 +87,8 @@
 
 .content-follow-us__image > img {
     border-radius: 8px;
-    width: 232px;
-    height: 233px;
+/*     width: 232px;
+    height: 233px; */
+  width: 100% !important;
+  height: auto !important;
 }
-
