@@ -168,7 +168,7 @@ details[open]>.header__submenu {
 }
 
 .menu-bottom__item {
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
 }
 
 .header__submenu .header__menu-item {
