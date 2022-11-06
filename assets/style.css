@@ -126,7 +126,7 @@
 }
 
 .header__active-menu-item {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .header__menu-item:hover {
   text-decoration: none !important;
