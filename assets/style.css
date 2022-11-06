@@ -167,6 +167,10 @@ details[open]>.header__submenu {
     text-transform: capitalize;
 }
 
+.header__submenu > .menu-bottom__item {
+  margin: 0 0 16px 0;
+}
+
 .menu-bottom__item {
 /*     margin: 0 0 16px 0; */
 }
