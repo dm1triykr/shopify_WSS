@@ -165,3 +165,7 @@ details[open]>.header__submenu {
     color: #414249;
     text-transform: capitalize;
 }
+
+.header__submenu .header__menu-item {
+  padding: 0;
+}
