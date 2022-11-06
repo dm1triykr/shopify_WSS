@@ -75,12 +75,14 @@ $(document).ready(function () {
     slidesToShow: 5,
     infinite: false,
     // variableWidth: true,
-    // centerMode: true,
+    centerMode: true,
+    centerPadding: '16px'
     responsive: [{
       breakpoint: 1441,
       settings: {
         slidesToShow: 4.22,
-        variableWidth: true
+        variableWidth: true,
+        centerMode: false
       }
     }, {
       breakpoint: 751,
