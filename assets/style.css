@@ -193,4 +193,6 @@ details[open]>.header__submenu {
   bottom: 0.2rem !important;
   left: 2.8rem !important;
   background-color: #FF8F8F;
+  font-size: 1.3rem;
+  line-height: 24px;
 }
